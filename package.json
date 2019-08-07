@@ -1,0 +1,21 @@
+{
+  "name": "apm-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "@elastic/apm-rum": "^4.4.1",
+    "bluebird": "^3.5.5",
+    "lodash": "^4.17.15"
+  }
+}
